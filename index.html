@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .jumbotron {
+            background-image: url('https://raw.githubusercontent.com/thomsonvarghese/imag/main/WhatsApp%20Image%202024-07-11%20at%201.06.20%20PM.jpeg');
+
+            background-size:cover;
+            background-repeat: no-repeat;
+            height: 750px;
+            text-align: center;
+            color: white;
+            padding-top: 200px;
+            
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #d3d3d3;
+        }
+
+        .bg {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#follow-me">Follow Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">I'm Thomson Varghese</h1>
+            <p>Python Fullstack Developer</p>
+
+            <div class="social-icons mt-4">
+                <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Junior software developer with 1 year of experience in full software development cycle. Highly skilled and dedicated software developer with a Btech degree from India.</p>
+            </div>
+            <div class="col-md-6 bg">
+                <img src="https://raw.githubusercontent.com/thomsonvarghese/imag/main/tomi.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light">
+        <div class="container py-5">
+            <h2 class="text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Frontend Development</h4>
+                            <ul>
+                                <li>HTML, CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Backend Development</h4>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Other Skills</h4>
+                            <ul>
+                                <li>Git</li>
+                                <li>RESTful APIs</li>
+                                <li>Agile Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://www.softgentech.com/wp-content/uploads/2024/04/Mobile-app-development-services-in-lucknow-1080x593.jpg" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Mobile App Development.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://infostride.com/wp-content/uploads/2023/09/MicrosoftTeams-image-36.png?w=1024" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">Food Delivery App.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.icoderzsolutions.com/blog/wp-content/uploads/2019/06/Best-Transportation-Apps-For-iPhones-Blog-Post.jpg" class="card-img-top" alt="Project 3"><br>
+                <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">Transportation App Development.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section><br>
+
+    <section id="follow-me" class="container text-center mt-5">
+        <h2>Follow Me</h2>
+        <div class="d-flex justify-content-center mt-3">
+            <a href="https://google.com" class="btn btn-outline-dark mx-2" target="_blank">
+                <i class="fab fa-google"></i> Google
+            </a>
+            <a href="https://instagram.com" class="btn btn-outline-danger mx-2" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://telegram.org" class="btn btn-outline-info mx-2" target="_blank">
+                <i class="fab fa-telegram"></i> Telegram
+            </a>
+            <a href="https://twitter.com" class="btn btn-outline-primary mx-2" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </div>
+    </section> <br><br> 
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@pop
